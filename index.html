@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> weather app </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body  style="background-image: url(the-weather-7119136_1280.webp);">
+        <div class="card" style="background-image: url(weather.jpg);">
+            <div class="search">
+                <input type="text" id="city-input" placeholder="Enter city name">
+                <button onclick="checkWeather()"><img src="search.png" alt></button>
+                
+            </div>
+            <div class="weather">
+                <img src="download (1) question.png" style="height:150px;
+                width:200px; margin-top: 15%;" class="weathericon">
+                <h1 class="temp"> ---- </h1>
+                <h2 class="city"> ----- </h2>
+
+                <div class="detail">
+                    <div class="col">
+                        <img src="humidity.png">
+                        <div>
+                            <p class="humidity"> -----</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="wind.png">
+                        <div>
+                            <p class="wind speed">----km/h</p>
+                            <p>Wind speed</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </body>
+
+    </html>
